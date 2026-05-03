@@ -1,0 +1,16 @@
+@import 'variable.css'
+
+@font-face{
+    font-family: Young Serif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Young Serif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+/* font-family: "Overpass", sans-serif;*/
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700
+
+Font size (paragraph): 16px

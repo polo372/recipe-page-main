@@ -1,0 +1,23 @@
+@import 'reset.css';
+@import 'variable.css';
+@import 'typo.css';
+@layer reset, typo;
+
+body{
+    min-width: 100%;
+    min-height: 100vh;
+}
+.picture{
+    min-width: 375px;
+    height: 171px;
+    margin-bottom: var(--600);
+}
+main{
+padding: 0 var(--500);
+}
+.s_title{
+    margin-bottom: var(--500);
+}
+.h1_title{
+    text-wrap: auto;
+}
