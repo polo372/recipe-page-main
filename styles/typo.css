@@ -19,20 +19,20 @@
 .youngserif-regular2{
     font-size: 1.75rem;
 }
-.oufit-bold,
-.oufit-regular{
+.outfit-bold,
+.outfit-regular{
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
     letter-Spacing: 0;
     line-height: 150%;
 }
-.oufit-bold{
+.outfit-bold{
     font-weight: 700;
 }
-.oufit-regular{
+.outfit-regular{
     font-weight: 400;
 }
-.oufit-Semibold {
+.outfit-Semibold {
     font-size: 1.25rem;
     font-weight: 600;
     letter-Spacing: 0;
