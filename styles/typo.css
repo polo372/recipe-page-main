@@ -1,16 +1,41 @@
-@import 'variable.css'
-
 @font-face{
-    font-family: Young Serif;
-    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-family: "Outfit";
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: Young Serif;
+    font-family: "Young Serif";
     src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
-/* font-family: "Overpass", sans-serif;*/
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 600, 700
-
-Font size (paragraph): 16px
+.youngserif-regular1,
+.youngserif-regular2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    letter-Spacing: 0;
+    line-height: 100%;
+}
+.youngserif-regular1{
+    font-size: 2.25em;
+}
+.youngserif-regular2{
+    font-size: 1.75rem;
+}
+.oufit-bold,
+.oufit-regular{
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    letter-Spacing: 0;
+    line-height: 150%;
+}
+.oufit-bold{
+    font-weight: 700;
+}
+.oufit-regular{
+    font-weight: 400;
+}
+.oufit-Semibold {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-Spacing: 0;
+    line-height: 100%;
+    font-family: "outfit", sans-serif;
+}
