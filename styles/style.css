@@ -7,17 +7,25 @@ body{
     min-width: 100%;
     min-height: 100vh;
 }
+main{
+padding: var(--space_500) var(--space_400);
+}
+.divider {
+    border-bottom: 1px solid var(--Stone_150);
+    margin: var(--space_400) 0;
+}
 .picture{
     min-width: 375px;
     height: 171px;
-}
-main{
-padding: var(--space_500) var(--space_400);
 }
 .h1_title{
     text-wrap: auto;
     margin-bottom: var(--space_300);
     color: var(--Stone_900)
+}
+h2{
+    color: var(--Brown_800);
+    margin-bottom: var(--space_300);
 }
 .p_title{
     color: var(--Stone_600);
@@ -45,14 +53,9 @@ padding: var(--space_500) var(--space_400);
     padding-left: var(--space_200);
     margin-top: var(--space_100);
 }
-main > .divider {
-    margin: var(--space_400) 0;
-}
-h2{
-    color: var(--Brown_800);
-    margin-bottom: var(--space_300);
-}
-.ul_ingredients{
+
+.ul_ingredients,
+ol{
     padding-left: 20px;
 }
 .ul_ingredients > li{
@@ -60,6 +63,9 @@ h2{
     color: var(--Stone_600);
     margin-top: var(--space_100);
 }
-.ul_ingredients > li::marker {
+.ul_ingredients > li::marker,
+ol > li::marker {
     color: var(--Brown_800);
+    font-family: oufit-bold;
 }
+
