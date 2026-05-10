@@ -97,7 +97,7 @@ ol{
 .bold{
     color: var(--Brown_800);
     min-width: 40%;    
-    margin-right: 32px;
+    margin-right: var(--space_400);
 }
 .s_nutrition > article {
     color: var(--Stone_600);
@@ -105,7 +105,7 @@ ol{
 .nutrition-table{
     display: flex;
     justify-content: space-between;
-    margin: 0 32px;
+    margin: 0 var(--space_400);
     padding: var(--space_100) 0;
 }
 .n_divider {
