@@ -6,7 +6,6 @@
 
 body{
     min-width: 100%;
-    max-width: 375px;
     min-height: 100vh;
     background-color: var(--Stone_100);
 }
@@ -90,9 +89,6 @@ ol{
     padding-left: var(--space_200);
     color: var(--Stone_600);
     margin-left: var(--space_100);
-}
-.p_nutrition{
-    color: var(--Stone_600);
 }
 .bold{
     color: var(--Brown_800);
